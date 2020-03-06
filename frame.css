@@ -35,12 +35,11 @@ ul.topnav li a {
     min-height: 16px;
     padding: 14px;
     text-transform: none;
-    color: #666;
+    color: white;
 }
 
 ul.topnav li a:hover {
-    background-color: blue;
-    color: #fff;
+    background-color: #111;
 }
 
 /***************************************************/
