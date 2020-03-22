@@ -2,7 +2,6 @@
 require "head.php"
 ?>
 
-
 <main>
 
     <?php
