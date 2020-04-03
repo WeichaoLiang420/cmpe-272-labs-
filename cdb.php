@@ -19,9 +19,9 @@ mysqli_report(MYSQLI_REPORT_ERROR);
 
 
 $server = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'myDB';
+$username = 'cmpe272wei';
+$password = 'cmpe272af!';
+$database = 'cmpe';
 
 try {
   $conn = new PDO("mysql:host=$server;dbname=$database;", $username, $password);

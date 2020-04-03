@@ -1,8 +1,8 @@
 <?php
-$servername = "mydb272.cupuratwyho7.us-west-1.rds.amazonaws.com:3306";
-$username = "admin";
-$password = "12345678";
-$dbname = "myDB";
+$servername = "localhost";
+$username = "cmpe272wei";
+$password = "cmpe272af!";
+$dbname = "cmpe";
 //create connection
 $mysqli = new mysqli($servername, $username, $password,$dbname);
 // check connection 
