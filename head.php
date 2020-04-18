@@ -31,7 +31,7 @@ session_start();
                     <li class="topnav-right"><a href="signout.php"> 
                         Sign out</a></li>
                     <li class="topnav-right"><a href="signin.php"> 
-                        Sign in</a></li>'  
+                        Sign in</a></li>'
     ;
 ?>
 
