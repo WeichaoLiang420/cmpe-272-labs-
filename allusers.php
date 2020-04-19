@@ -33,6 +33,7 @@ $response = curl_exec($ch);
 
 // curl_exec($ch);
 $curl_info= curl_getinfo($ch);
+echo "all users from ruiyang {$curl_info}";
 // 4. 释放cURL句柄,关闭一个cURL会话
 curl_close($ch)
 
