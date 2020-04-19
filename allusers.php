@@ -2,14 +2,28 @@
 require "head.php"
 ?>
 <?php
+/**
+* Initialize the cURL session
+*/
+$ch = curl_init();
 
-$ch = curl_init("http://ruiyang90.info/users.php/");
-$fp = fopen("yangrui.txt", "w");
+/**
+* Set the URL of the page or file to download.
+*/
+curl_setopt($ch, CURLOPT_URL, "http://ruiyang90.info/users.php");
 
-curl_setopt($ch, CURLOPT_FILE, $fp);
-curl_setopt($ch, CURLOPT_HEADER, 0);
+/**
+* Ask cURL to return the contents in a variable instead of simply echoing them to the browser.
+*/
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-curl_exec($ch);
-curl_close($ch);
-fclose($fp);
+/**
+* Execute the cURL session
+*/
+$contents = curl_exec ($ch);
+
+/**
+* Close cURL session
+*/
+curl_close ($ch);
 ?>
