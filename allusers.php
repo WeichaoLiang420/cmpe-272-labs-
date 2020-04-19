@@ -5,7 +5,7 @@ require "head.php"
        
 <?php
 $curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, "http://ruiyang90.info/users.php");
+curl_setopt($curl, CURLOPT_URL, 'http://ruiyang90.info/users.php');
 // curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
 // curl_setopt($curl, CURLOPT_HEADER, 0);
 curl_exec($curl);
