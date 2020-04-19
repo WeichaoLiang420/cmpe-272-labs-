@@ -12,10 +12,10 @@
             
         </tr>
         <?php
-        // require('mm.php');
-        // if(!isset($_SESSION)) 
-        // { 
-        //     session_start(); 
+         require('mm.php');
+        //if(!isset($_SESSION)) 
+         //{ 
+        //    session_start(); 
         //     $sql = "SELECT * FROM GuestInfo WHERE";
         //     if(isset($_POST["name"]) and $_POST["name"]!="")
         //     {
