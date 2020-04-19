@@ -23,9 +23,9 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://ruiyang90.info/users.php");
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
-
+curl_exec($ch);
 // 3. 执行一个cURL会话并且获取相关回复
-$response = curl_exec($ch);
+//$response = curl_exec($ch);
 
 // if ($response  === FALSE) {
 //   echo "cURL 具体出错信息: " . curl_error($ch);
