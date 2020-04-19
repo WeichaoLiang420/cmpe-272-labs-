@@ -27,6 +27,7 @@ session_start();
                     <li class="topnav-left"><a href="news.php"> News</a></li>
                     <li class="topnav-left"><a href="contacts.php"> Contacts</a></li>
                     <li class="topnav-left"><a href="users.php"> Users</a></li>
+                    <li class="topnav-left"><a href="allusers.php"> Allusers</a></li>
                     <li class="topnav-right"><a href="registry.php"> Regist</a></li>
                     <li class="topnav-right"><a href="search.php"> Search</a></li>
                     <li class="topnav-right"><a href="signout.php"> 
