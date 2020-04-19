@@ -1,3 +1,6 @@
+<?php
+require "head.php"
+?>
 <section class="main-section alabaster" id="users">
 	<div class="container fullsize">
     <table  >
