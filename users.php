@@ -15,34 +15,9 @@ require "head.php"
             
         </tr>
         <?php
-         require('mm.php');
-        //if(!isset($_SESSION)) 
-         //{ 
-        //    session_start(); 
-        //     $sql = "SELECT * FROM GuestInfo WHERE";
-        //     if(isset($_POST["name"]) and $_POST["name"]!="")
-        //     {
-        //         $sql=$sql." first_name LIKE '%".$_POST["name"]."%' OR last_name LIKE '%".$_POST["name"]."%'";
-        //     }
-        //     else
-        //     {
-        //         $sql=$sql." first_name = '' OR last_name= ''";
-        //     }
-        //     if(isset($_POST["email"]) and $_POST["email"]!= "" )
-        //     {
-        //         $sql=$sql."OR email LIKE '%".$_POST["email"]."%'";
-        //     }
-        //     if(isset($_POST["phone"]) and $_POST["phone"]!= "")
-        //     {
-        //         $sql=$sql."OR home_phone LIKE'%".$_POST["phone"]."%' OR cell_phone LIKE '%".$_POST["phone"]."%';";
-        //     }
-        //     $result = $mysqli->query($sql);
-        // }
-      //  else{
-            $sql = "SELECT * FROM GuestInfo";
-            $result = $mysqli->query($sql);
-   //     }
-        
+         require('mm.php');   
+         $sql = "SELECT * FROM GuestInfo";
+            $result = $mysqli->query($sql);      
         while($row = $result -> fetch_assoc()){
             echo "<tr>";
                 echo "<td>";
