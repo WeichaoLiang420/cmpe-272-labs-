@@ -42,14 +42,6 @@ require "head.php"
         echo "</tr>";
     }
 ?>
-           </table>
-    <br/>
-    <br/>
-    
-        </div>
-</section>
-
-
 <h2>
     Below are the users from this own company's database weichao420.info
 </h2>
