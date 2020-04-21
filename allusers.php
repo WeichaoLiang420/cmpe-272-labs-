@@ -41,18 +41,7 @@ require "head.php"
             echo "</td>";
         echo "</tr>";
     }
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 $curl = curl_init();
 
