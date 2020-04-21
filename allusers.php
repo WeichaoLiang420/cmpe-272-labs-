@@ -76,9 +76,10 @@ $output = curl_exec ( $curl );
 $output_1 = strip_tags($output,'<body><h1><table><tr><td>');
 $yummy   = array("Document", "Athena","Home","About","Services","News","Contacts","Users","All","Users","Login");
 $bodytag = str_replace($yummy," ", $output_1);
+$bodytag_1 = str_replace("own","other", $bodytag);
 //$output_1 = $out = preg_replace("/(?<=^|>).*?(?=<|$)/s", "", $output);
-echo $bodytag;
-fwrite($fp , $bodytag);
+echo $bodytag_1;
+fwrite($fp , $bodytag_1);
 fclose($fp);
 ?>
         </table>
