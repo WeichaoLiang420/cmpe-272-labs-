@@ -41,10 +41,20 @@ require "head.php"
             echo "</td>";
         echo "</tr>";
     }
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-    $curl = curl_init();
+$curl = curl_init();
 
 curl_setopt($curl, CURLOPT_URL, 'http://ruiyang90.info/users.php');
 
@@ -54,12 +64,14 @@ $fp = fopen("yangrui.txt", "w");
 $output = curl_exec ( $curl );
 
 
-$output=str_ireplace('<header>','',$output);
-$output=str_ireplace('</header>','',$output);
-//$output_1 = strip_tags($output,'<head><meta>');
+// $output=str_ireplace('<header>','',$output);
+// $output=str_ireplace('</header>','',$output);
+$output_1 = strip_tags($output,'<body><h1><table><tr><td>');
+$yummy   = array("Document", "Athena","Home","About","Services","News","Contacts","Users","All","Users","Login");
+$bodytag = str_replace($yummy," ", $output_1);
 //$output_1 = $out = preg_replace("/(?<=^|>).*?(?=<|$)/s", "", $output);
-echo $output;
-fwrite($fp , $output);
+echo $bodytag;
+fwrite($fp , $bodytag);
 fclose($fp);
 ?>
         </table>

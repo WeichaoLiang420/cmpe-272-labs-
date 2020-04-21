@@ -1,42 +1,42 @@
 
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
+
+
+    
+    
+    
+     
+    
+
 
 <body>
     
-        <nav>
-            <ul class="topnav">
-            <li><a href="index.php">Athena</a></li>
+        
             
-                                    <li class="topnav-left"><a href="index.php"> Home</a></li>
-                                    <li class="topnav-left"><a href="about.php"> About</a></li>
-                                    <li class="topnav-left"><a href="service.php"> Services</a></li>
-                                    <li class="topnav-left"><a href="news.php"> News</a></li>
-                                    <li class="topnav-left"><a href="contacts.php"> Contacts</a></li>
-                                    <li class="topnav-left"><a href="users.php"> Users</a></li>
-                                    <li class="topnav-left"><a href="allusers.php"> All Users</a></li>
+             
+            
+                                      
+                                      
+                                      
+                                      
+                                      
+                                      
+                                        
 
-                                    <li class="topnav-right"><a href="login.php"> Login</a></li>
+                                      
 
-            </ul>
-        </nav>
+            
+        
     
-    <text>
-    </text>
+    
+    
 
 
 
 </body>
 
-</html>
+
 
 <body>
 
@@ -46,14 +46,14 @@
 
     <table>
         <tr>
-            <td class="tableheader"><strong>First Name</strong></td>
-            <td class="tableheader"><strong>Last Name</strong></td>
-            <td class="tableheader"><strong>Email</strong></td>
-            <td class="tableheader"><strong>Home Address</strong></td>
-            <td class="tableheader"><strong>Home Phone</strong></td>
-            <td class="tableheader"><strong>Cell Phone</strong></td>
+            <td class="tableheader">First Name</td>
+            <td class="tableheader">Last Name</td>
+            <td class="tableheader">Email</td>
+            <td class="tableheader">  Address</td>
+            <td class="tableheader">  Phone</td>
+            <td class="tableheader">Cell Phone</td>
         </td>
-    <tr><td>kobe</td><td>bryant</td><td>haha@gmail.com</td><td>i_donot_know</td><td>12312321</td><td>123123213</td></tr><tr><td>super</td><td>man</td><td>sman@gmail.com</td><td>Market stree, SF</td><td>110-1111111</td><td>110-415-8231</td></tr><tr><td>rui</td><td>yang</td><td>haha@gmail.com</td><td>san jose</td><td>111-000-1111</td><td>111-000-1111</td></tr><tr><td>denzel</td><td>washington</td><td>dw@gmail.com</td><td>i_donot_know</td><td>123213123</td><td>123123123</td></tr><tr><td>brad</td><td>pitt</td><td>bp@gmail.com</td><td>weqwe</td><td>123213</td><td>12432423</td></tr><tr><td>jay</td><td>chow</td><td>jc@gmail.com</td><td>asdjigehi</td><td>12387348</td><td>243123432</td></tr><tr><td>john</td><td>A</td><td>joha@gmail.com</td><td>jashd, San jose</td><td>123048</td><td>231232155</td></tr><tr><td>Cassandra</td><td>Y</td><td>cy@gmail.com</td><td>61 colorado, millbrae</td><td>415-111-2222</td><td>415-111-2221</td></tr><tr><td>gogo</td><td>Y</td><td>gy@gmail.com</td><td>120 Colorados, Millbrae</td><td>415-000-0000</td><td>415-000-0001</td></tr><tr><td>jamie</td><td>foxx</td><td>jf@gmail.com</td><td>1010 rich dr., LA</td><td>415-000-1010</td><td>415-000-2020</td></tr><tr><td>will</td><td>smith</td><td>ws@gmail.com</td><td>1010 rich dr., SF</td><td>415-000-0101</td><td>415-000-0102</td></tr><tr><td>Forest</td><td>Whitaker</td><td>fw@gmail.com</td><td>1920 Mars Dr., San Jose</td><td>415-000-8888</td><td>415-000-1111</td></tr><tr><td>Michael B.</td><td>Jordan</td><td>mbj@gmail.com</td><td>120 Colorados, Millbrae</td><td>415-000-0011</td><td>415-000-1100</td></tr><tr><td>Terrence</td><td>Howard</td><td>th@gmail.com</td><td>1010 queen, NYC</td><td>415-000-0001</td><td>415-000-0002</td></tr><tr><td>Leondardo</td><td>Dicaprio</td><td>ld@gmail.com</td><td>1010 queen, LA,CA</td><td>415-000-0111</td><td>415-000-0222</td></tr><tr><td>Al</td><td>Pacino</td><td>alp@gmail.com</td><td>220 QUEEN, NYC, USA</td><td>415-000-0123</td><td>415-000-0124</td></tr><tr><td>Robert De</td><td>Niro</td><td>rdn@gmail.com</td><td>1201 Queen Dr, LA, CA</td><td>415-000-2222</td><td>415-000-7123</td></tr><tr><td>bingo</td><td>R</td><td>bp@gmail.com</td><td>110 Hill Dr, Millbrae, CA</td><td>415-000-1213</td><td>415-000-1412</td></tr><tr><td>nano</td><td>V</td><td>nano@gmail.com</td><td>1010 god dr, san jose</td><td>4158252271</td><td>4158252272</td></tr><tr><td>The Hulk</td><td>M.</td><td>thm@gmail.com</td><td>Marvel, USA</td><td>100-111-1111</td><td>100-111-1112</td></tr><tr><td>Don</td><td>Home</td><td>dm@gmail.com</td><td>san jose</td><td>415-111-1023</td><td>415-111-1025</td></tr><tr><td>abhi</td><td>bala</td><td>aaa@abc.com</td><td>111,aaa</td><td>1234567890</td><td>1234567890</td></tr>    </table>
+    <tr><td>kobe</td><td>bryant</td><td>haha@gmail.com</td><td>i_donot_know</td><td>12312321</td><td>123123213</td></tr><tr><td>super</td><td>man</td><td>sman@gmail.com</td><td>Market stree, SF</td><td>110-1111111</td><td>110-415-8231</td></tr><tr><td>rui</td><td>yang</td><td>haha@gmail.com</td><td>san jose</td><td>111-000-1111</td><td>111-000-1111</td></tr><tr><td>denzel</td><td>washington</td><td>dw@gmail.com</td><td>i_donot_know</td><td>123213123</td><td>123123123</td></tr><tr><td>brad</td><td>pitt</td><td>bp@gmail.com</td><td>weqwe</td><td>123213</td><td>12432423</td></tr><tr><td>jay</td><td>chow</td><td>jc@gmail.com</td><td>asdjigehi</td><td>12387348</td><td>243123432</td></tr><tr><td>john</td><td>A</td><td>joha@gmail.com</td><td>jashd, San jose</td><td>123048</td><td>231232155</td></tr><tr><td>Cassandra</td><td>Y</td><td>cy@gmail.com</td><td>61 colorado, millbrae</td><td>415-111-2222</td><td>415-111-2221</td></tr><tr><td>gogo</td><td>Y</td><td>gy@gmail.com</td><td>120 Colorados, Millbrae</td><td>415-000-0000</td><td>415-000-0001</td></tr><tr><td>jamie</td><td>foxx</td><td>jf@gmail.com</td><td>1010 rich dr., LA</td><td>415-000-1010</td><td>415-000-2020</td></tr><tr><td>will</td><td>smith</td><td>ws@gmail.com</td><td>1010 rich dr., SF</td><td>415-000-0101</td><td>415-000-0102</td></tr><tr><td>Forest</td><td>Whitaker</td><td>fw@gmail.com</td><td>1920 Mars Dr., San Jose</td><td>415-000-8888</td><td>415-000-1111</td></tr><tr><td>Michael B.</td><td>Jordan</td><td>mbj@gmail.com</td><td>120 Colorados, Millbrae</td><td>415-000-0011</td><td>415-000-1100</td></tr><tr><td>Terrence</td><td>Howard</td><td>th@gmail.com</td><td>1010 queen, NYC</td><td>415-000-0001</td><td>415-000-0002</td></tr><tr><td>Leondardo</td><td>Dicaprio</td><td>ld@gmail.com</td><td>1010 queen, LA,CA</td><td>415-000-0111</td><td>415-000-0222</td></tr><tr><td>Al</td><td>Pacino</td><td>alp@gmail.com</td><td>220 QUEEN, NYC, USA</td><td>415-000-0123</td><td>415-000-0124</td></tr><tr><td>Robert De</td><td>Niro</td><td>rdn@gmail.com</td><td>1201 Queen Dr, LA, CA</td><td>415-000-2222</td><td>415-000-7123</td></tr><tr><td>bingo</td><td>R</td><td>bp@gmail.com</td><td>110 Hill Dr, Millbrae, CA</td><td>415-000-1213</td><td>415-000-1412</td></tr><tr><td>nano</td><td>V</td><td>nano@gmail.com</td><td>1010 god dr, san jose</td><td>4158252271</td><td>4158252272</td></tr><tr><td>The Hulk</td><td>M.</td><td>thm@gmail.com</td><td>Marvel, USA</td><td>100-111-1111</td><td>100-111-1112</td></tr><tr><td>Don</td><td> </td><td>dm@gmail.com</td><td>san jose</td><td>415-111-1023</td><td>415-111-1025</td></tr><tr><td>abhi</td><td>bala</td><td>aaa@abc.com</td><td>111,aaa</td><td>1234567890</td><td>1234567890</td></tr>    </table>
 <body>
 
 
