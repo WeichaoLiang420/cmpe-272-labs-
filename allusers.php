@@ -42,9 +42,9 @@ require "head.php"
         echo "</tr>";
     }
 ?>
-<h1>
+<h2>
     Below are the users from this own company's database ruiyang90.info
-</h1>
+</h2>
 <?php
 
 $curl = curl_init();
