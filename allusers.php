@@ -42,8 +42,16 @@ require "head.php"
         echo "</tr>";
     }
 ?>
+           </table>
+    <br/>
+    <br/>
+    
+        </div>
+</section>
+
+
 <h2>
-    Below are the users from this own company's database ruiyang90.info
+    Below are the users from this own company's database weichao420.info
 </h2>
 
 <section class="main-section alabaster" id="allusers">
