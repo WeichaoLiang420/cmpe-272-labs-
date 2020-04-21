@@ -45,6 +45,20 @@ require "head.php"
 <h2>
     Below are the users from this own company's database ruiyang90.info
 </h2>
+
+<section class="main-section alabaster" id="allusers">
+<div class="container fullsize">
+<table  >
+    <tr>
+        
+        <td class="tableheader"><strong>First Name</strong></td>
+        <td class="tableheader"><strong>Last Name</strong></td>
+        <td class="tableheader"><strong>Email</strong></td>
+        <td class="tableheader"><strong>Home Address</strong></td>
+        <td class="tableheader"><strong>Home Phone</strong></td>
+        <td class="tableheader"><strong>Cell Phone</strong></td>
+        
+    </tr>
 <?php
 
 $curl = curl_init();
