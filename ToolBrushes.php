@@ -49,10 +49,10 @@ Airbrush Finish Bamboo Foundation Brush
 <br>
 <br>
 </h2>
-<img src="tool1.jpg" width="200" height="200"/>
+<!-- <img src="tool1.jpg" width="200" height="200"/>
 <h2>
 FOREO<br>
 LUNA™ mini 2
-</h2>
+</h2> -->
 </body>
 </html>

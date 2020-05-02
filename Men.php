@@ -49,10 +49,10 @@ Multi-Action Face Wash
 <br>
 <br>
 </h2>
-<img src="men1.jpg" width="200" height="200"/>
+<!-- <img src="men1.jpg" width="200" height="200"/>
 <h2>
 LAB SERIES FOR MEN<br>
 Age Rescue Face Lotion
-</h2>
+</h2> -->
 </body>
 </html>

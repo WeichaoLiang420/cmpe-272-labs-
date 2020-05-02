@@ -47,10 +47,10 @@ Mini Mascara Set with Full-Size Voucher<br>
 <br>
 <br>
 </h2>
-<img src="makeup1.jpg" width="200" height="200"/>
+<!-- <img src="makeup1.jpg" width="200" height="200"/>
 <h2>
 PAT MCGRATH LABS<br>
 Mothership VI Eyeshadow Palette - Midnight Sun<br>
-</h2>
+</h2> -->
 </body>
 </html>

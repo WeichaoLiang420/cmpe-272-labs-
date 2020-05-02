@@ -44,12 +44,16 @@ body{text-align:center}
 OUAI<br>
 Hair Supplement for Thinning Hair
 <br>
+<!-- review comment -->
+<!-- <a href ="suppl_1.php">
+<input type = 'button'value = 'view comments'>
+</a> -->
 <br>
 </h2>
-<img src="supplements1.jpg" width="200" height="200"/>
+<!-- <img src="supplements1.jpg" width="200" height="200"/>
 <h2>
 MURAD<br>
 Pure Skin® Clarifying Dietary Supplement
-</h2>
+</h2> -->
 </body>
 </html>

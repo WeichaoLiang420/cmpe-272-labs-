@@ -43,11 +43,11 @@ Vitamin C+ Collagen Deep Cream<br>
 <br>
 <br>
 </h2>
-<img src="skincare1.jpg" width="200" height="200"/>
+<!-- <img src="skincare1.jpg" width="200" height="200"/>
 <h2>
 DR. DENNIS GROSS SKINCARE<br>
 Alpha Beta® Pore Perfecting Cleansing Gel Mini<br>
 <p><front size =2>Luminous Silk Foundation</front><br></p>
-</h2>
+</h2> -->
 </body>
 </html>

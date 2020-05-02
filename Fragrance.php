@@ -47,10 +47,10 @@ Flowerbomb<br>
 <br>
 <br>
 </h2>
-<img src="fragrance0.jpg" width="200" height="200"/>
+<!-- <img src="fragrance0.jpg" width="200" height="200"/>
 <h2>
 CHANEL<br>
-COCO MADEMOISELLE Eau de Parfum
+COCO MADEMOISELLE Eau de Parfum -->
 </h2>
 </body>
 </html>

@@ -68,10 +68,10 @@ Future Solution LX Intensive Firming Contour Serum<br>
 <br>
 <br>
 </h2>
-<img src="premier1.jpg" width="200" height="200"/>
+<!-- <img src="premier1.jpg" width="200" height="200"/>
 <h2>
 ARTIS<br>
 Premier Brush Cleansing Pad<br>
-</h2>
+</h2> -->
 </body>
 </html>

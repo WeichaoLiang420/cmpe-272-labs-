@@ -46,10 +46,10 @@ Ultra HD Invisible Cover Foundation<br>
 <br>
 <br>
 </h2>
-<img src="foundation1.jpg" width="200" height="200"/>
-<h2>
+<!-- <img src="foundation1.jpg" width="200" height="200"/> -->
+<!-- <h2>
 ARMANI BEAUTY<br>
 <p><front size =2>Luminous Silk Foundation</front><br></p>
-</h2>
+</h2> -->
 </body>
 </html>

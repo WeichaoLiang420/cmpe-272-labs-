@@ -45,10 +45,10 @@ Resistance Blow-Dry Primer for Damaged Hair Mini
 <br>
 <br>
 </h2>
-<img src="hair1.jpg" width="200" height="200"/>
+<!-- <img src="hair1.jpg" width="200" height="200"/>
 <h2>
 LIVING PROOF<br>
 Perfect Hair Day Dry Shampoo Mini
-</h2>
+</h2> -->
 </body>
 </html>

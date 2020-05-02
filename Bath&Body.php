@@ -29,7 +29,7 @@ online only<br>
 VIKTOR&ROLF<br>
 Flowerbomb Bath and Body Collection
 <br>
-<br>
+<!-- <br>
 </h2>
 <img src="bath0.jpg" width="200" height="200"/>
 <h2>
@@ -37,4 +37,4 @@ LAURA MERCIER<br>
 Almond Coconut Honey Bat
 </h2>
 </body>
-</html>
+</html> -->
