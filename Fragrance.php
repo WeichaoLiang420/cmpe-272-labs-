@@ -45,6 +45,9 @@ body{text-align:center}
 VIKTOR&ROLF<br>
 Flowerbomb<br>
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="fragrance0.jpg" width="200" height="200"/>

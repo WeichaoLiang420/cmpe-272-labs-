@@ -66,6 +66,9 @@ body{text-align:center}
 SHISEIDO<br>
 Future Solution LX Intensive Firming Contour Serum<br>
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="premier1.jpg" width="200" height="200"/>

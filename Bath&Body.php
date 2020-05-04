@@ -29,6 +29,9 @@ online only<br>
 VIKTOR&ROLF<br>
 Flowerbomb Bath and Body Collection
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <!-- <br>
 </h2>
 <img src="bath0.jpg" width="200" height="200"/>

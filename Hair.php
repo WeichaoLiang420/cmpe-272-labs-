@@ -43,6 +43,9 @@ body{text-align:center}
 KÉRASTASE<br>
 Resistance Blow-Dry Primer for Damaged Hair Mini
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="hair1.jpg" width="200" height="200"/>

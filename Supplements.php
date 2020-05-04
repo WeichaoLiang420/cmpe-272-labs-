@@ -45,9 +45,9 @@ OUAI<br>
 Hair Supplement for Thinning Hair
 <br>
 <!-- review comment -->
-<!-- <a href ="suppl_1.php">
+<a href ="test.html">
 <input type = 'button'value = 'view comments'>
-</a> -->
+</a>
 <br>
 </h2>
 <!-- <img src="supplements1.jpg" width="200" height="200"/>

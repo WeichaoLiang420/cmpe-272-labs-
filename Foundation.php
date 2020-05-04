@@ -44,6 +44,9 @@ body{text-align:center}
 MAKE UP FOR EVER<br>
 Ultra HD Invisible Cover Foundation<br>
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="foundation1.jpg" width="200" height="200"/> -->

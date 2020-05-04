@@ -41,6 +41,9 @@ body{text-align:center}
 DR. DENNIS GROSS SKINCARE<br>
 Vitamin C+ Collagen Deep Cream<br>
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="skincare1.jpg" width="200" height="200"/>

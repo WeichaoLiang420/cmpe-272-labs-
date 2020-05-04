@@ -47,6 +47,9 @@ body{text-align:center}
 TARTE<br>
 Airbrush Finish Bamboo Foundation Brush
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="tool1.jpg" width="200" height="200"/>

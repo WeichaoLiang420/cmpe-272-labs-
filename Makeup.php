@@ -45,6 +45,9 @@ limited edition<br>
 SEPHORA FAVORITES<br>
 Mini Mascara Set with Full-Size Voucher<br>
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="makeup1.jpg" width="200" height="200"/>

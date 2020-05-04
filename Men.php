@@ -47,6 +47,9 @@ body{text-align:center}
 LAB SERIES FOR MEN<br>
 Multi-Action Face Wash
 <br>
+<a href ="test.html">
+<input type = 'button'value = 'view comments'>
+</a>
 <br>
 </h2>
 <!-- <img src="men1.jpg" width="200" height="200"/>
