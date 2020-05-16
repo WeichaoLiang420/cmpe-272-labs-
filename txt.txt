@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    
+    <header>
         <nav>
             <ul class="topnav">
             <li><a href="index.php">Athena</a></li>
@@ -27,7 +27,7 @@
 
             </ul>
         </nav>
-    
+    </header>
     <text>
     </text>
 

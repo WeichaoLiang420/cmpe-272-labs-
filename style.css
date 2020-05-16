@@ -1,0 +1,71 @@
+/* body
+{
+    margin:0;
+    padding:0;
+    background:#262626;
+
+}
+.rating
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: flex;
+}
+.rating input
+{
+   display: none;
+}
+.rating lable
+{
+    display: block;
+    cursor: pointer;
+    width: 50px;
+    background: #ccc;
+
+}
+.rating lable:before
+{
+    content: '\f005';
+    font-family: frontAwesome ;
+    position: relative;
+    display: block;
+    front-size: 50px;
+} */
+
+@import"http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+.box{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    direction: rtl;
+}
+.box a{
+    front-size:40px;
+    columns: #313131;
+    transition: 0.3s all;
+
+}
+.box a:hover{
+    color: #f1c40f;
+}
+.b1:hover ~ a{
+    color: #f1c40f;
+}
+.b2:hover ~ a{
+    color: #f1c40f;
+}
+.b3:hover ~ a{
+    color: #f1c40f;
+}
+.b4:hover ~ a{
+    color: #f1c40f;
+}
+.comment{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}

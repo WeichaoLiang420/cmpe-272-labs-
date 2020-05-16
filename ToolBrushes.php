@@ -47,9 +47,25 @@ body{text-align:center}
 TARTE<br>
 Airbrush Finish Bamboo Foundation Brush
 <br>
-<a href ="test.html">
-<input type = 'button'value = 'view comments'>
-</a>
+<?php
+$productId = $_GET['id'];
+$domain = $_GET['domain'];
+$post = [
+ 'productId' => $productId,
+];
+
+$ch = curl_init('http://www.feiyucai.info/thewayshop/incview.php');
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+
+// execute!
+$response = curl_exec($ch);
+
+// close the connection, release resources used
+curl_close($ch);
+
+echo "<p><a href=\"reviewform.php?id=". $productId ."&domain=". $domain ."\" class=\"btn btn-black py-3 px-5\">Add Reviews</a></p>";
+?>
 <br>
 </h2>
 <!-- <img src="tool1.jpg" width="200" height="200"/>
