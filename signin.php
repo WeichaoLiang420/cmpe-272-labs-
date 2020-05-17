@@ -1,4 +1,4 @@
-<html>
+<!-- <html>
 <?php
 require "head.php"
 ?>
@@ -14,4 +14,4 @@ password: <input password="text" name="pwd">
 
 
 </body>
-</html>
+</html> -->
