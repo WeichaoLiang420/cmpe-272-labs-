@@ -1,36 +1,30 @@
 
 <?php
-// if(!isset($_COOKIE[$cookie_name])) {
-//   echo "<script>alert('Please Log in first');</script>"; 
-// } else if ($_GET['id'] == "" ){
-//   echo "<script>alert('system error, please locate reviewing product');</script>"; 
-// } else if ($_GET['domain'] == "" ){
-//   echo "<script>alert('system error, please locate reviewing product');</script>"; 
-// }
-// else {
-//   $productId = $_GET['id'];
-//   $domain = $_GET['domain'];
-//   $userId = $_COOKIE['userId'];
-// }
+  if(!isset($_COOKIE['authenticate'])) {
+    echo "<script>alert('Please Log in first');window.location.href='http://ruiyang90.info/login.html';</script>"; 
+  } else if ($_GET['id'] == "" ){
+    echo "<script>alert('system error, please locate reviewing product');window.location.href='http://www.ruiyang90.info/';</script>"; 
+  } else if ($_GET['domain'] == "" ){
+    echo "<script>alert('system error, please locate reviewing product');window.location.href='http://www.ruiyang90.info/';</script>"; 
+  }
+  else {
+    $productId = $_GET['id'];
+    $domain = $_GET['domain'];
+    $userId = $_COOKIE['authenticate'];
+  }
+?>
 
+<?php
   $productId = $_GET['id'];
   $domain = $_GET['domain'];
   $userId = '1';
 
-?>
-<!DOCTYPE html>
-<?php
-if (isset($_POST['submit'])) {
+  if (isset($_POST['submit'])) {
     $ProductId = $_POST['productId'];
     $UserId = $_POST['userId'];
     $rating = $_POST['rating'];
     $comment = $_POST['comment'];
     $domain = $_POST['domain'];
-
-    // echo $ProductId;
-    // echo $UserId;
-    // echo $rating;
-    // echo $comment;
 
     $post = [
       'productId' => $ProductId,
@@ -39,21 +33,23 @@ if (isset($_POST['submit'])) {
       'rating' => $rating,
       'comment' => $comment,
     ];
-  
-  $ch = curl_init('http://www.feiyucai.info/thewayshop/addreview.php');
+
+  $ch = curl_init('http://ruiyang90.info/thewayshop/addreview.php');
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
   curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
-  
+
   // execute!
   $response = curl_exec($ch);
-  
+
   // close the connection, release resources used
   curl_close($ch);
-  
+
   // do anything you want with your response
   echo var_dump($response);
 
-  header("Location: http://www.feiyucai.info/thewayshop/index.html");
+  $target_url = $product_url."?id=".$product_id."&domain=".$Domain."&token=".$token;
+  echo $target_url;
+  header("Location: ".$target_url);
   }
 ?>
 
@@ -77,6 +73,5 @@ if (isset($_POST['submit'])) {
   </br>
   <input type="submit" id="submit" name="submit"  value="Submit">
 </form>
-</html>
 
 

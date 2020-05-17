@@ -1,6 +1,11 @@
 <?php
 require "head.php"
 ?>
+<?php
+if(isset($_GET['token'])) {
+ setcookie('authenticate', $_GET['token'], time()+3600);
+}
+?>
 
 <main>
     <h1>
@@ -52,7 +57,7 @@ $post = [
  'productId' => $productId,
 ];
 
-$ch = curl_init('http://www.feiyucai.info/thewayshop/incview.php');
+$ch = curl_init('http://www.ruiyang90.info/incview.php');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
 
